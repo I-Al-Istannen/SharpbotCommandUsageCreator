@@ -49,7 +49,7 @@ if __name__ == '__main__':
                         default=Formatter.default_format,
                         help="The format for the commands."
                              " Accepts a link to a file."
-                             "\nAlso valid are 'default' and 'no_category'.")
+                             "\nAlso valid is 'no_category'.")
     parser.add_argument(*["-category-header", "-c"], nargs="?",
                         default="", help="The format for the category headers."
                                          " Accepts a link to a file.")

@@ -54,7 +54,7 @@ class Formatter(object):
             if line.startswith("<if>"):
                 if _should_remove(line, command):
                     continue
-                line = line["<if>".__len__():-1]
+                line = line["<if>".__len__():]
             new_format.append(line)
 
         new_format = "  \n".join(new_format)
